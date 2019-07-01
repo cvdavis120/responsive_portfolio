@@ -37,3 +37,24 @@ header {
   float: left;
   width: 100%;
 }
+
+@media only screen and (max-width: 980px) {
+  body {
+    background-color: lightblue;
+  }
+  /* Allow the header and footer to fill the entire page and the "objects" to be alligned right*/
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  /* Lose the margin between the right side of the screen */
+}
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: orange;
+  }
+  /* split the header into two rows so its better visible on the page  */
+  /* for the index page, change the float property so the words fall below the image. */
+  /* for the portfolio page, stack the images in a single column so the user can scroll through them. */
+}
