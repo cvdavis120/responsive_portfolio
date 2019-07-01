@@ -23,3 +23,17 @@ body {
 .container {
   text-align: center;
 }
+page_header {
+  background-color: #ffffff;
+  border-color: #666666;
+  position: absolute;
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  background-color: #4aaaa5;
+  padding: 25px;
+  color: white;
+  float: left;
+  width: 100%;
+}
